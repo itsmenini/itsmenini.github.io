@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+	<title>Isi Biodata Anda</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../3.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top:  25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 15px;
+	border: 1px solid transparan;
+	transition: 0,4s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;	
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;	
+}
+
+.main{
+	max-width: 1080;
+	margin: auto;
+}
+
+.footer{
+	position: absolute;
+	top: 95%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+
+</style>
+</head>
+<body>
+	<header>
+	<div class="main">
+		<ul>
+			<li><a href="..\index.html">Beranda</a></li>
+			<li><a href="halo.html">Tentang Saya</a></li>
+			<li><a href="Biodata.html">Biodata Saya</a></li>
+			<li class="active"><a href="form.html">Isi Biodata Anda</a></li>
+		</ul>
+	</div>			
+		<section id="main-content">
+			<div id="featured">
+<br>
+<br>
+<br>
+<br>
+<form>
+<b>Nama Lengkap</b><br>
+<input type = "text" name="firstname" value="" size="30" max length="10"><br><br>
+
+<b>Tempat Lahir</b><br>
+<input type="text" name="Tempat" value="" size="15" max length="10"><br><br>
+
+<b>Tanggal lahir</b><br>
+<input type="date" name="Tanggal Lahir" value="" size="20" max length="10"><br><br>
+
+<b>Jenis Kelamin</b><br>
+<input type="radio" name="gender" value="Laki - laki"> Laki - laki
+                        <input type="radio" name="gender" value="Perempuan"> Perempuan<br><br>
+
+<b>Golongan Darah</b><br>
+<select name="goldar">
+                        <option value ="ebi">A</option>
+						<option value ="eba">B</option>
+                        <option value ="ebu">AB</option>
+						<option value ="ebo">O</option>
+						</select><br><br>
+
+<b>Alamat</b><br>
+<textarea name="Alamat" value="" size="40" max length="35"> </textarea><br><br>
+
+<b>No. Handphone</b><br>
+<input type="text" name="No.Handphone" value=""><br><br>
+
+<input type="submit" value="submit">
+<br>
+<br>
+<input type="reset" value="reset">
+</form>
+</body>
+</body>
+</html>

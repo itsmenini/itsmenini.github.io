@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+	<title>Fav Food</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../3.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top:  25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 15px;
+	border: 1px solid transparan;
+	transition: 0,4s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;	
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;	
+}
+
+.main{
+	max-width: 1080;
+	margin: auto;
+}
+
+.footer{
+	position: absolute;
+	top: 95%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+
+</style>
+</head>
+<body>
+	<header>
+	<div class="main">
+		<ul>
+			<li><a href="..\index.html">Beranda</a></li>
+			<li><a href="halo.html">Tentang Saya</a></li>
+			<li><a href="Biodata.html">Biodata Saya</a></li>
+			<li><a href="form.html">Isi Biodata Anda</a></li>
+		</ul>
+	</div>			
+		<section id="main-content">
+			<div id="featured">
+<br>
+<br>
+<iframe src="iframelayout.html" height="200" width="350"></iframe>
+<br>
+<br>
+<p><b>ini musik yang aku suka</b></p>
+<p>&#8595 &#8595 &#8595 &#8595</p>
+<br>
+
+<audio controls>
+   <source src="vid\Motions.mp3" type="audio/mpeg">
+   <source src="vid\Motions.ogg" type="audio/ogg">
+   <source src="vid\Motions.wav" type="audio/wav">
+   Gagal memutar lagu
+</audio>
+<div class="footer">
+	<p><center>Nur Fajriyani &#169 2019</center></p>
+	</div>			
+	</div> <!-- END Wrapper -->
+	</body>
+</body>
+</html>
+<br>
